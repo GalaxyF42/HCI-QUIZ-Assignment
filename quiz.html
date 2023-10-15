@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Quiz</title>
+    <style>
+        .quizform {
+            text-align: left;
+            display: none;
+        }
+        body{
+            background: rgb(2,0,36);
+            background: linear-gradient(90deg, rgba(2, 0, 36, 0) 0%, rgba(121, 9, 95, 0.24) 36%, rgba(0,212,255,1) 100%);
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to the Quiz</h1>
+    <div style="text-align: center;">
+    <button onclick="startQuiz(1)" type="button">Question 1</button><br>
+    <button onclick="startQuiz(2)" type="button">Question 2</button><br>
+    <button onclick="startQuiz(3)" type="button">Question 3</button><br>
+    <button onclick="startQuiz(4)" type="button">Question 4</button><br>   
+    <button onclick="startQuiz(5)" type="button">Question 5</button><br>       
+    <button onclick="startQuiz(6)" type="button">Question 6</button><br>   
+    <button onclick="startQuiz(7)" type="button">Question 7</button><br>   
+    <button onclick="startQuiz(8)" type="button">Question 8</button><br>   
+    <button onclick="startQuiz(9)" type="button">Question 9</button><br>  
+    <button onclick="startQuiz(10)" type="button">Question 10</button><br>   
+</div>
+<div style="text-align: left; vertical-align: top 10px; border: 10px;"></div>
+    <form id="q1" class="quizform">
+        <p>1) What is the national bird of India?</p>
+        <input type="radio" name="capital1" value="Peacock"> Peacock<br>
+        <input type="radio" name="capital1" value="Pigeon"> Pigeond<br>
+        <input type="radio" name="capital1" value="Parrot"> Parrot<br>
+        <input type="radio" name="capital1" value="Kingfisher">Kingfisheri<br>
+        <input type="button" value="submit" onclick="submitAnswer(1)">
+    </form>
+    <form id="q2" class="quizform">
+        <p>2) Who is the god of cricket ?</p>
+        <input type="radio" name="capital1" value="sachin"> sachin<br>
+        <input type="radio" name="capital1" value="Kohli"> Kohli<br>
+        <input type="radio" name="capital1" value="Dhoni"> Dhoni<br>
+        <input type="radio" name="capital1" value="Raina"> Raina<br>
+        <input type="button" value="submit" onclick="submitAnswer(1)">
+    </form>
+    <form id="q3" class="quizform">
+        <p>3) who is the prime minister of india?</p>
+        <input type="radio" name="capital1" value="modi">modi<br>
+        <input type="radio" name="capital1" value="KTR"> KTR<br>
+        <input type="radio" name="capital1" value="Stalin"> stalin<br>
+        <input type="radio" name="capital1" value="Nehuru"> Nehuru<br>
+        <input type="button" value="submit" onclick="submitAnswer(1)">
+    </form>
+    <form id="q4" class="quizform">
+        <p>4) Who is the CM of Telangana?</p>
+        <input type="radio" name="capital1" value="KCR"> KCR<br>
+        <input type="radio" name="capital1" value="KTR"> KTR<br>
+        <input type="radio" name="capital1" value="Ajay kumar"> Ajay kumar<br>
+        <input type="radio" name="capital1" value="mallareddy"> mallareddy<br>
+        <input type="button" value="submit" onclick="submitAnswer(1)">
+    </form>
+    <form id="q5" class="quizform">
+        <p>5) Who is the CEO of google ?</p>
+        <input type="radio" name="capital1" value="Sundar pichai"> Sundar pichai<br>
+        <input type="radio" name="capital1" value="satya nadella">satya nadell<br>
+        <input type="radio" name="capital1" value="ambani"> ambani<br>
+        <input type="radio" name="capital1" value="mallareddy">mallareddy<br>
+        <input type="button" value="submit" onclick="submitAnswer(1)">
+    </form>
+    <form id="q6" class="quizform">
+        <p>6) when was republic day celebrated?</p>
+        <input type="radio" name="capital1" value="JAN 26"> JAN 26<br>
+        <input type="radio" name="capital1" value="AUG 15"> AUG 15<br>
+        <input type="radio" name="capital1" value="OCT 2"> OCT 2<br>
+        <input type="radio" name="capital1" value="NOV 14">NOV 14i<br>
+        <input type="button" value="submit" onclick="submitAnswer(1)">
+    </form>
+    <form id="q7" class="quizform">
+        <p>7) What is the capital of TamilnadU?</p>
+        <input type="radio" name="capital1" value="delhi"> Delhi<br>
+        <input type="radio" name="capital1" value="hyderabad"> Hyderabad<br>
+        <input type="radio" name="capital1" value="mumbai"> Mumbai<br>
+        <input type="radio" name="capital1" value="chennai"> Chennai<br>
+        <input type="button" value="submit" onclick="submitAnswer(4)">
+    </form>
+    <form id="q8" class="quizform">
+        <p>8) which team had won 2011 world cup in cricket ?</p>
+        <input type="radio" name="capital1" value="INDIA">INDIA<br>
+        <input type="radio" name="capital1" value="SRILANKA"> SRILANKA<br>
+        <input type="radio" name="capital1" value="WEST INDIES"> WEST INDIES<br>
+        <input type="radio" name="capital1" value="ENGLAND"> ENGLAND<br>
+        <input type="button" value="submit" onclick="submitAnswer(1)">
+    </form>
+    <form id="q9" class="quizform">
+        <p>9) What is the capital of ODISHA?</p>
+        <input type="radio" name="capital1" value="Bhuvneshwar "> Bhuvneshwar<br>
+        <input type="radio" name="capital1" value="Bangalore">Bangalore<br>
+        <input type="radio" name="capital1" value="delhi"> delhi<br>
+        <input type="radio" name="capital1" value="chennai"> Chennai<br>
+        <input type="button" value="submit" onclick="submitAnswer(1)">
+    </form>
+    <form id="q10" class="quizform">
+        <p>10) What is the full form of RCB in ipl?</p>
+        <input type="radio" name="capital1" value="royal challenges Bangalore"> royal challenges Bangalorei<br>
+        <input type="radio" name="capital1" value="mumbai indians"> mumbai indian<br>
+        <input type="radio" name="capital1" value="Rajasthan Royals"> Rajasthan Royals<br>
+        <input type="radio" name="capital1" value="Kolkata Knight Riders"> CKolkata Knight Riders<br>
+        <input type="button" value="submit" onclick="submitAnswer(1)">
+    </form>
+
+</div>
+
+    <script>
+        var currentQuestion = 1;
+
+        function startQuiz(questionNumber) {
+            var currentForm = document.getElementById("q" + currentQuestion);
+            currentForm.style.display = "none";
+            var nextForm = document.getElementById("q" + questionNumber);
+            nextForm.style.display = "block";
+
+            currentQuestion = questionNumber;
+        }
+
+        function submitAnswer(questionNumber) {
+            var answer = document.querySelector('input[name="capital' + questionNumber + '"]:checked');
+
+            if (answer) {
+                var nextQuestion = questionNumber + 1;
+                if (nextQuestion <= 10) {
+                    startQuiz(nextQuestion);
+                } else {
+                    alert("Quiz Completed!");
+                }
+            } else {
+                alert("Please select an answer before submitting.");
+            }
+        }
+        startQuiz(1);
+    </script>
+</body>
+</html>
